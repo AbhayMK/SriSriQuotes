@@ -2,23 +2,39 @@
   color: blueviolet;
   font-size: 3em;
   font-style: italic;
-  background-color: rgb(148, 220, 224);
-  padding: 10px;
-  margin: 100px;
+  /* background-color: rgb(148, 220, 224); */
   border: 2px;
+  display: flex;
+  align-items: center;
 }
 .author {
   color: blueviolet;
   font-size: 3em;
   font-style: bold;
-  background-color: rgb(148, 220, 224);
-  padding: 10px;
-  margin: 100px;
+  /* background-color: rgb(148, 220, 224); */
   border: 2px;
+  display: flex;
+  align-items: center;
 }
 .total {
   background-color: rgb(148, 220, 224);
   border: 2px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: double;
+  padding: auto;
+  margin: 40px;
+}
+.getQuote {
+  text-decoration: solid underline;
+  border: 5px solid purple;
+  margin: auto;
+  padding: 5px 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+#shareBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

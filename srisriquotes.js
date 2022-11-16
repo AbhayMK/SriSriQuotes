@@ -3,7 +3,11 @@ function getQuote() {
   console.log(s);
   str = "quote" + s.toString();
   console.log(quotes[str]);
-  return quotes[str];
+  text = quotes[str];
+  document.getElementById("quote-container").innerHTML = text;
+  return text;
 }
+getQuote();
+var text = quotes[str];
 
 document.getElementById("quote-container").innerHTML = text;

@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="srisriquotes.css" />
     <title>Sri Sri Quotes</title>
   </head>
-  <body>
+  <body id="body">
     <div class="total" id="total">
       <div class="quote-container" id="quote-container">Text</div>
       <div class="author">~Sri Sri</div>
     </div>
-    <script src="srisriquotes.js"></script>
+    <button class="getQuote" id="getQuote" onclick="getQuote()">
+      Get New Quote
+    </button>
+
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="shareBtn">
+      <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_twitter"></a>
+      <a class="a2a_button_email"></a>
+      <a class="a2a_button_whatsapp"></a>
+      <a class="a2a_button_linkedin"></a>
+      <a class="a2a_button_copy_link"></a>
+      <a class="a2a_button_wechat"></a>
+      <a class="a2a_button_printfriendly"></a>
+      <a class="a2a_button_google_gmail"></a>
+      <a class="a2a_button_pinterest"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+
+    <script type="text/javascript" src="quotes.js"></script>
+    <script type="text/javascript" src="srisriquotes.js"></script>
   </body>
 </html>
